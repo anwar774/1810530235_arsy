@@ -632,21 +632,22 @@
 <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
 
 <!-- SCRIPTS -->
-<script src="{{asset('js/jquery-1.12.3.min.js') }}" defer></script>
-<script src="{{asset('js/jquery.easing.min.js')}}" defer></script>
-<script src="{{asset('js/popper.min.js')}}" defer></script>
-<script src="{{asset('js/bootstrap.min.js')}}" defer></script>
-<script src="{{asset('js/jquery.waypoints.min.js')}}" defer></script>
-<script src="{{asset('js/jquery.counterup.min.js')}}" defer></script>
-<script src="{{asset('js/jquery.mCustomScrollbar.concat.min.js')}}" defer></script>
-<script src="{{asset('js/isotope.pkgd.min.js')}}" defer></script>
-<script src="{{asset('js/infinite-scroll.min.js')}}" defer></script>
-<script src="{{asset('js/imagesloaded.pkgd.min.js')}}" defer></script>
-<script src="{{asset('js/slick.min.js')}}" defer></script>
-<script src="{{asset('js/contact.js')}}" defer></script>
-<script src="{{asset('js/validator.js')}}" defer></script>
-<script src="{{asset('js/custom.js')}}" defer></script>
-
+<!-- @push('scripts') -->
+<script src="{{asset('js/jquery-1.12.3.min') }}" defer></script>
+<script src="{{asset('js/jquery.easing.min')}}" defer></script>
+<script src="{{asset('js/popper.min')}}" defer></script>
+<script src="{{asset('js/bootstrap.min')}}" defer></script>
+<script src="{{asset('js/jquery.waypoints.min')}}" defer></script>
+<script src="{{asset('js/jquery.counterup.min')}}" defer></script>
+<script src="{{asset('js/jquery.mCustomScrollbar.concat.min')}}" defer></script>
+<script src="{{asset('js/isotope.pkgd.min')}}" defer></script>
+<script src="{{asset('js/infinite-scroll.min')}}" defer></script>
+<script src="{{asset('js/imagesloaded.pkgd.min')}}" defer></script>
+<script src="{{asset('js/slick.min')}}" defer></script>
+<script src="{{asset('js/contact')}}" defer></script>
+<script src="{{asset('js/validator')}}" defer></script>
+<script src="{{asset('js/custom')}}" defer></script>
+<!-- @endpush` -->
 
 
 </body>

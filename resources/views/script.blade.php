@@ -1,0 +1,14 @@
+<script src="{{asset('js/jquery-1.12.3.min.js') }}" defer></script>
+<script src="{{asset('js/jquery.easing.min.js')}}" defer></script>
+<script src="{{asset('js/popper.min.js')}}" defer></script>
+<script src="{{asset('js/bootstrap.min.js')}}" defer></script>
+<script src="{{asset('js/jquery.waypoints.min.js')}}" defer></script>
+<script src="{{asset('js/jquery.counterup.min.js')}}" defer></script>
+<script src="{{asset('js/jquery.mCustomScrollbar.concat.min.js')}}" defer></script>
+<script src="{{asset('js/isotope.pkgd.min.js')}}" defer></script>
+<script src="{{asset('js/infinite-scroll.min.js')}}" defer></script>
+<script src="{{asset('js/imagesloaded.pkgd.min.js')}}" defer></script>
+<script src="{{asset('js/slick.min.js')}}" defer></script>
+<script src="{{asset('js/contact.js')}}" defer></script>
+<script src="{{asset('js/validator.js')}}" defer></script>
+<script src="{{asset('js/custom.js')}}" defer></script>
